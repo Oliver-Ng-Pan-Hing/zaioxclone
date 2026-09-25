@@ -1,0 +1,476 @@
+@media (max-width: 1264px){
+
+    .entire-container{
+        width: 92%;
+    }
+
+    .nav-links span{
+        display: none;
+    }
+
+    #nav-left{
+        width: 9%;
+    }
+
+    .nav-left-container{
+        width: 100%;
+    }
+
+    .sidebar{
+        align-items: center;
+        font-size: 1.45rem;
+    }
+
+    .nav-links.logo{
+        margin-left: 0.3em;
+    }
+
+    
+    .post-button-container{
+        justify-content: center;
+        margin-left: 0.25em;
+        margin-top: 0.25em;
+
+        /* border: 1px solid black; */
+        
+    }
+
+    .post-button{
+        display: none;
+    }
+    
+    .fa-pen-to-square{
+    display: block;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: #ffffff;
+    padding: 0.5em 0.45em;
+    border-radius: 50%;
+    }
+
+    .profile{
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0.25em;
+    }
+
+    .profile-container{
+        justify-content: center;
+    }
+
+    .profile-details{
+        display: none;
+    }
+
+    .profile .fa-ellipsis{
+        display: none;
+    }
+
+        #main{
+            width: 55%;
+            min-width: 600px;
+        }
+
+        #updates{
+            width: 34%;
+            min-width: 365px;
+            
+        }
+
+        .search-container{
+            width: 29.5%;
+            min-width: 340px;
+        }
+
+         .fa-pen-to-square{
+            display: none;
+         }
+
+}
+
+@media (max-width: 1102px){
+
+        .chatbot .fa-robot{
+            display: none;    
+        }
+
+        .chatbot-comment .fa-comment{
+            display: none;
+        }
+
+
+        #updates{    
+            width: 30%;    
+            min-width: 300px;            
+        }
+
+        .search-container{
+            width: 20%;
+            min-width: 280px;
+        }
+
+}
+
+@media (max-width: 1003px){
+
+        .entire-container{
+            justify-content: center;
+        }
+
+        #nav-left{
+            min-width: 80px;
+        }
+
+        #updates{    
+            display: none;            
+        }
+
+}
+
+@media (max-width: 690px){
+        /* #nav-left{
+            max-width: 80px;
+        } */
+
+
+        #main{
+           width: 91%;
+           min-width: 0;
+        }
+}
+
+@media (max-width: 661px){
+    .entire-container{
+        width: 95%;
+    }
+
+
+    .profile-title h3:first-child::after{
+        left: 40%;
+    }
+
+}
+
+@media (max-width: 640px){
+        #main{
+           width: 91%;
+           
+        }
+
+        .feed-title-container{
+            flex-wrap: wrap;
+        }
+
+}
+
+@media (max-width: 600px){
+        .entire-container{
+            width: 95%;
+        }
+
+        #main{
+           width: 91%;  
+        }
+}
+
+@media (max-width: 580px){
+    .profile-title h3:first-child::after{
+        left: 38%;
+    }
+}
+
+@media (max-width: 500px){
+
+    .entire-container{
+            width: 100%;
+            flex-direction: column;
+        }
+
+    .phone-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: fixed;
+        height: 50px;
+
+        top: 0px;
+        background-color: rgba(255, 255, 255, 0.95);
+        width: 100%;
+    }
+
+    .profile-title{
+        top: 49px;
+    }
+
+     .phone-nav img{
+        width: 32px;
+        height: 32px;
+        margin-left: 1em;
+    }
+
+    .phone-nav .logo-container{
+        margin-left: 5em;
+    }
+
+    .phone-nav button{
+        margin-right: 1em;
+        padding: 0.5em 0.75em;
+        color: black;
+        font-weight: 600;
+        font-size: 1rem;
+
+        background-color: #ffffff;
+        outline: none;
+        border-radius: 1.75em;
+        border: 1px solid #dce4e8;
+        /* border: 1px solid black; */
+
+    }
+
+    #nav-left{
+        display: none;
+    }
+
+    .profile-title h3:first-child::after{
+        left: 37%;    
+    }
+
+    #main{
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .profile-posts-details{
+        display: none;
+    }
+
+    .post-icons-container{
+        display: none;
+    }
+
+    .feed-icons-first{
+        gap: 1.25em;
+        align-items: center;
+    }
+
+    .views-container{
+        gap: 0.25em;
+    }
+
+    .feed-icons-first span{
+        font-size: 0.8rem;
+    }      
+
+
+    .fa-pen-to-square{
+        display: block;
+        position: fixed;
+        
+        color: #ffffff;
+        background-color: #1d9bf0;
+        font-size: 1.3rem;
+        bottom: 10%;
+        right: 5%;
+        transition: 0.1s ease-in-out;
+
+        padding: 0.6em 0.5em;
+        padding-bottom: 0.7em;
+        padding-left: 0.6em;
+    }
+
+    .fa-pen-to-square:hover{
+        background-color: #1a8ad4;
+    }
+
+    #bottom-nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        height: 50px;
+
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }  
+
+    #bottom-nav-container .fa-house{
+        margin-left: 0.5em;
+
+        font-size: 1.4rem;
+        padding: 0.3em 0.15em;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        transition: 0.2s ease-in-out;
+    }
+
+    #bottom-nav-container .fa-magnifying-glass{
+        font-size: 1.4rem;
+        padding: 0.25em 0.15em;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        transition: 0.2s ease-in-out;
+    }
+
+    #bottom-nav-container .fa-robot{
+        font-size: 1.4rem;
+        padding: 0.25em 0.15em;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        transition: 0.2s ease-in-out;
+    }
+
+    #bottom-nav-container .fa-bell{
+        font-size: 1.4rem;
+        padding: 0.25em 0.15em;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        transition: 0.2s ease-in-out;
+    }
+
+    #bottom-nav-container .fa-comment{
+        margin-right: 0.5em;
+
+        font-size: 1.4rem;
+        padding: 0.25em 0.15em;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        transition: 0.2s ease-in-out;
+
+    }
+
+    #bottom-nav-container .fa-house:hover{
+       background-color: #e7e7e7e7;
+       cursor: pointer;
+    }
+
+    #bottom-nav-container .fa-magnifying-glass:hover{
+       background-color: #e7e7e7e7;
+       cursor: pointer;
+    }
+
+    #bottom-nav-container .fa-robot:hover{
+       background-color: #e7e7e7e7;
+       cursor: pointer;
+    }
+
+    #bottom-nav-container .fa-bell:hover{
+       background-color: #e7e7e7e7;
+       cursor: pointer;
+    }
+
+    #bottom-nav-container .fa-comment:hover{
+        background-color: #e7e7e7e7;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 490px){
+    .profile-title h3:first-child::after{
+        left: 35%;    
+    }
+
+}
+
+@media (max-width: 380px){
+       
+    .profile-posts{
+        width: 97%;
+    }
+
+    .feed-title-icons .fa-robot{
+        font-size: 0.9rem;
+    }
+
+    .feed-title-icons .fa-ellipsis{
+        font-size: 0.9rem;
+    }
+
+
+
+    .feed-icons-first{
+        gap: 0.75em;
+    }
+
+    .views-container .fa-comment{
+        font-size: 0.85rem;
+    }
+
+    .views-container .fa-recycle{
+        font-size: 0.85rem;
+    }
+
+    .views-container .fa-heart{
+        font-size: 0.85rem;
+    }
+
+    .views-container .fa-chart-simple{
+        font-size: 0.85rem;
+    }
+
+    .views-container span{
+        font-size: 0.75rem;
+    }
+
+
+    .feed-icons-second .fa-bookmark{
+        font-size: 0.85rem;
+    }
+
+    .feed-icons-second .fa-arrow-up-from-bracket{
+        font-size: 0.85rem;
+    }
+
+
+}
+
+@media (max-width: 340px){    
+
+    /* .profile-posts{
+        width: 90%;
+    }
+
+    .feed-container{
+    width: 100%;
+    }
+
+    .feed-details{
+        width: 90%;
+    } 
+ 
+    #video-1{
+        width: 
+    }
+
+    #video-2{
+
+    }
+
+    #video-3{
+
+    }  */
+
+
+
+    .phone-nav .logo-container{
+        margin-left: 4em;
+    }
+
+
+    .phone-nav button{
+        margin-right: 0.5em;
+    }
+
+    /* .profile-posts{
+        width: 93%;
+    } */
+
+    .feed-icons-second .fa-bookmark{
+        display: none;
+    }
+
+}
