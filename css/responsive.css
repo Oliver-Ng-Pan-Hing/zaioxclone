@@ -488,3 +488,34 @@
     }
 
 }
+
+@media (max-height: 849px){  
+
+    #nav-left{
+        overflow-y: scroll;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .nav-left-container{
+        height: auto;
+    }
+
+    /* .sidebar{
+        overflow-y: scroll;
+    }
+      */
+
+     .search-container{
+        width: 26%;
+     }
+
+
+     .chatbot .fa-robot{
+        bottom: 10%;
+        right: 1%;
+     }
+    
+
+}

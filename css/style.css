@@ -752,6 +752,12 @@ body{
 
     width: 30%;
     flex-shrink: 0;
+
+    height: 40%;
+
+    position: sticky;
+    top: 0;
+    
     
     /* position: fixed;
     right: 0;
