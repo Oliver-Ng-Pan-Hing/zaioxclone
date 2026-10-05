@@ -18,6 +18,181 @@ body{
     /* background-color: rgb(224, 134, 134); */
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    color: #0f1419;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+body.dark-mode {
+    background-color: #020d1e;
+    color: #eaf4ff;
+}
+
+body.dark-mode .entire-container,
+body.dark-mode #nav-left,
+body.dark-mode #main,
+body.dark-mode #updates,
+body.dark-mode .nav-left-container,
+body.dark-mode .profile-title,
+body.dark-mode .search-container,
+body.dark-mode .searchbar,
+body.dark-mode .updates-container,
+body.dark-mode .subscribe-container,
+body.dark-mode .news-container,
+body.dark-mode .whats-happening-container,
+body.dark-mode .who-to-follow-container,
+body.dark-mode .chatbot .fa-robot,
+body.dark-mode .chat-bot-container textarea {
+    background-color: #081b2d;
+    color: #eaf4ff;
+}
+
+body.dark-mode .nav-links:hover,
+body.dark-mode .profile:hover,
+body.dark-mode .feed-container:hover,
+body.dark-mode .news-posts:hover,
+body.dark-mode .whats-happening-details-container:hover,
+body.dark-mode .who-container:hover,
+body.dark-mode .post-amounts:hover,
+body.dark-mode .fa-plus:hover,
+body.dark-mode .theme-toggle:hover {
+    background-color: rgba(155, 188, 255, 0.12);
+}
+
+body.dark-mode #nav-left,
+body.dark-mode #main,
+body.dark-mode .searchbar,
+body.dark-mode .subscribe-container,
+body.dark-mode .news-container,
+body.dark-mode .whats-happening-container,
+body.dark-mode .who-to-follow-container,
+body.dark-mode .profile-title,
+body.dark-mode .feed-container,
+body.dark-mode .post-amounts {
+    border-color: rgba(146, 173, 214, 0.25);
+}
+
+body.dark-mode .nav-links,
+body.dark-mode .profile,
+body.dark-mode .feed-title-icons,
+body.dark-mode .feed-icons,
+body.dark-mode .feed-text p,
+body.dark-mode .feed-text span,
+body.dark-mode .feed-title h2,
+body.dark-mode .feed-subtitle h2,
+body.dark-mode .whats-happening-details-info h4,
+body.dark-mode .who h4,
+body.dark-mode .footer-container,
+body.dark-mode .footer-container a,
+body.dark-mode .subscribe-container h3,
+body.dark-mode .news-profiles h3,
+body.dark-mode .profile-details h3:last-child,
+body.dark-mode .profile-title h3:last-child,
+body.dark-mode .fa-plus,
+body.dark-mode .searchbar .fa-magnifying-glass,
+body.dark-mode #search,
+body.dark-mode .feed-icons-first .views-container span,
+body.dark-mode .feed-title-icons .fa-robot,
+body.dark-mode .feed-title-icons .fa-ellipsis,
+body.dark-mode .feed-icons-second i,
+body.dark-mode .feed-icons-first i {
+    color: #eaf4ff;
+}
+
+body.dark-mode #search {
+    background-color: transparent;
+}
+
+body.dark-mode .searchbar {
+    border-color: rgba(148, 190, 255, 0.35);
+    background-color: rgba(10, 28, 44, 0.9);
+}
+
+body.dark-mode .theme-toggle {
+    background: rgba(12, 32, 52, 0.9);
+    border-color: rgba(148, 190, 255, 0.35);
+    color: #f7d66d;
+}
+
+body.dark-mode .theme-toggle .fa-sun {
+    opacity: 0;
+    transform: scale(0.7);
+}
+
+body.dark-mode .theme-toggle .fa-moon {
+    opacity: 1;
+    transform: scale(1);
+}
+
+body.dark-mode .fa-comment,
+body.dark-mode .chatbot .fa-robot,
+body.dark-mode .chatbot-comment .fa-comment {
+    color: #eaf4ff;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+body.dark-mode .chatbot .fa-robot:hover,
+body.dark-mode .chatbot-comment .fa-comment:hover {
+    color: #1d9bf0;
+    background-color: #c7dff0;
+}
+
+body.dark-mode .profile-posts-details input {
+    background-color: #081b2d;
+    color: #eaf4ff;
+}
+
+body.dark-mode .profile-posts-details input::placeholder {
+    color: #b7c8d9;
+}
+
+body.dark-mode .post-icons-container span {
+    background-color: #1d9bf0;
+    color: #ffffff;
+}
+
+body.dark-mode .logo-container svg path {
+    fill: #ffffff;
+}
+
+body.dark-mode .post-button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 1em;
+    padding: 0;
+    background-color: transparent;
+}
+
+body.dark-mode .post-button {
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 1.75em;
+    margin-left: 0;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .post-button:hover {
+    background-color: #eef4ff;
+}
+
+body.dark-mode .post-button button {
+    color: #000000;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+body.dark-mode .profile-title h3:first-child::after {
+    background-color: #53a6ff;
+}
+
+body.dark-mode .post-icons-container span,
+body.dark-mode #follow,
+body.dark-mode .subscribe-container button {
+    box-shadow: none;
 }
 
 .entire-container{
@@ -121,15 +296,21 @@ body{
 .post-button-container{
     display: flex;
     justify-content: start;
+    align-items: center;
     width: 100%;
-
+    min-height: 48px;
     margin-top: 1em;
 }
 
 .post-button{
     margin-left: 0;
     width: 80%;
+    min-height: 48px;
     background-color: #0f141a;
+    border-radius: 1.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .post-button:hover{
@@ -796,6 +977,9 @@ body{
 }
 
 .search-container{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
     padding-top: 0.5em;
     background-color: #ffffff;
     border-bottom-left-radius: 1.75em;
@@ -809,6 +993,7 @@ body{
     justify-content: start;
     align-items: center;
     gap: 0.25em;
+    flex: 1;
 
     border: 1px solid #ced9de;
     border-radius: 1.75em;
@@ -818,6 +1003,55 @@ body{
     padding: 0.75em 0.75em;
 
     background-color: #ffffff;
+}
+
+.theme-toggle{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #dfe9ef;
+    background-color: #ffffff;
+    color: #f3b33f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.theme-toggle:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.theme-toggle i {
+    position: absolute;
+    font-size: 1.05rem;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.theme-toggle .fa-sun {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.theme-toggle .fa-moon {
+    opacity: 0;
+    transform: scale(0.7);
+}
+
+.theme-toggle:hover .fa-sun,
+.theme-toggle:focus-visible .fa-sun {
+    opacity: 0;
+    transform: scale(0.7);
+}
+
+.theme-toggle:hover .fa-moon,
+.theme-toggle:focus-visible .fa-moon {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .searchbar:focus-within{
