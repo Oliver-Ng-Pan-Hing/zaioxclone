@@ -256,6 +256,17 @@
             flex-direction: column;
         }
 
+    .profile-posts{
+        gap: 0;
+    }
+
+    #profile-posts,
+    #profile-posts.composer-focused{
+        min-height: 0;
+    }
+    
+   
+
     .phone-nav{
         display: flex;
         justify-content: space-between;
@@ -576,10 +587,10 @@
         /* background-color: green; */
     }
 
-    .sidebar{
-        /* background-color: #1a8ad4; */
+    /* .sidebar{
+         background-color: #1a8ad4; 
         
-    }
+    } */
 
     .post-button-container{
         margin-top: 0;

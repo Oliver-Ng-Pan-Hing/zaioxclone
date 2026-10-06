@@ -1152,9 +1152,9 @@ body.dark-mode .subscribe-container button {
 font-size: 1.25rem;
 }
 
-.news-container .news-posts:nth-child(2){
-    /* margin-top: 0.5em; */
-}
+/* .news-container .news-posts:nth-child(2){
+    margin-top: 0.5em;
+} */
 
 .news-posts{
     display: flex;
